@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Text.RegularExpressions;
 
 namespace BaChallenge
@@ -76,11 +77,11 @@ namespace BaChallenge
             LanCount();
 
             Output.Add("\nSchools with 2 to 4 free spots:");
-            List<ListEntry> schoolsSubList = FilterSchools(listSize);
+            List<string> schoolsSubList = FilterSchools(listSize);
 
-            foreach (ListEntry entry in schoolsSubList)
+            foreach (string entry in schoolsSubList)
             {
-                Output.Add(entry.SCHOOL_NAME);
+                Output.Add(entry);
             }
 
             Output.ForEach(Console.WriteLine);
@@ -123,18 +124,20 @@ namespace BaChallenge
             }
         }
 
-        public static List<ListEntry> FilterSchools(int n)
+        public static List<string> FilterSchools(int n)
         {
-            List<ListEntry> list = new List<ListEntry>();
+            List<string> list = new List<string>();
             for (int i = 0; i < n; i++)
             {
                 if (List[i].FREE_SPACE >= 2 && List[i].FREE_SPACE < 5)
                 {
-                    list.Add(List[i]);
+                    if (!list.Contains(List[i].SCHOOL_NAME))
+                        list.Add(List[i].SCHOOL_NAME);
                 }
             }
 
-
+            list.Sort();
+            list.Reverse();
             return list;
         }
 
