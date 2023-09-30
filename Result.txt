@@ -1,14 +1,12 @@
-CHILDS_COUNT min value: 0
-CHILDS_COUNT max value: 144
-
-Schools with max CHILD_COUNT
+Kindergartens with max value of 144:
 Kod_1,5-3_Liet
 
-Schools with min CHILD_COUNT
+Kindergartens with min value of 0:
 Ait_1,5-7_Liet
 Atž_1-7_Liet
 Bit_1-7_Liet
 Col_2-4_Liet
+Col_2-6_Lenk
 Dre_1-7_Liet
 Du _6-7_Liet
 Du _2-3_Liet
@@ -26,9 +24,12 @@ Rug_1-7_Liet
 Rūt_3-5_Liet
 Sak_3-5_Liet
 Sma_1-7_Liet
+Sve_1,5-6_Lenk
+Šer_1,5-6_Lenk
 Žem_3-7_Liet
 Žem_1-7_Liet
 Ber_3-4_Liet
+Šil_6-7_Rusų
 Gėl_1-7_Liet
 Žir_6-7_Liet
 Vol_3-5_Liet
@@ -36,25 +37,21 @@ VĮ _6-7_Liet
 Ąžu_1-7_Liet
 Vil_6-7_Liet
 Vil_3-6_Liet
-Šil_6-7_Rusų
 Ban_3-4_Rusų
-Col_2-6_Lenk
-Sve_1,5-6_Lenk
-Šer_1,5-6_Lenk
 Vil_5-7_Lenk
 
 Free spots by language:
-Lietuvių 66.53%
-Rusų 22.37%
-Lenkų 11.1%
-Hebrajų 0%
+Lietuvių  66,53%
+Rusų  22,37%
+Lenkų  11,1%
+Hebrajų  0%
 
 Schools with 2 to 4 free spots:
-Zylutė
 Žirmūnėliai
 Žilvitis
 Žiburėlis
 Žemyna
+Zylutė
 Voveraitė
 Volungė
 Vilniaus Naujininkų mokykla
@@ -62,38 +59,13 @@ Vilniaus „Vilties“ specialioji mokykla-daugiafunkcinis centras
 Vilkpėdės
 Vaidilutė
 Šypsena
+Šaltinėlis
 Svaja
 Spygliukas
 Skroblinukas
 Saulėgrąža
-Šaltinėlis
 Sakalėlis
-Rytas
 Rugelis
+Rytas
 Rasa
-Ramunėlė
-Pumpurėlis
-Prie pasakų parko
-Pakalnutė
-Naminukas (Smėlio g. 13)
-Molinukas
-Medynėlis
-Lokiuko giraitė
-Liepsnelė
-Lazdynų mokykla
-Lašelis
-Lakštingala
-Kurpaitė
-Kodėlčiukas
-Kaštonas
-Karusėlė
-Justinukas
-Jovarėlis
-Gervelė (Stadiono g. 5)
-Geniukų kalvė
-Gelvonėlis
-Drevinukas
-Daigelis
-Beržynėlis
-Bangelė
-Atžalėlės
+Ram

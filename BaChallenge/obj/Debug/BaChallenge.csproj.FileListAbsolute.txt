@@ -1,5 +1,0 @@
-D:\Documents\BA\BaChallenge\BaChallenge\bin\Debug\BaChallenge.exe
-D:\Documents\BA\BaChallenge\BaChallenge\bin\Debug\BaChallenge.pdb
-D:\Documents\BA\BaChallenge\BaChallenge\obj\Debug\BaChallenge.csprojResolveAssemblyReference.cache
-D:\Documents\BA\BaChallenge\BaChallenge\obj\Debug\BaChallenge.exe
-D:\Documents\BA\BaChallenge\BaChallenge\obj\Debug\BaChallenge.pdb
